@@ -1,0 +1,51 @@
+destination: docs
+url:
+
+authors:
+  Andrea Dodet:
+    href: https://github.com/andodet/pinboard
+
+template:
+  params:
+    bootswatch: simplex
+
+navbar:
+  left:
+    - icon: fa-home fa-lg
+      href: index.html
+    - text: Reference
+      href: reference/index.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/andodet/pinboard
+
+reference:
+  - title: "Auth"
+    desc: >
+      Methods to interact with authentication
+    contents:
+      - get_secret
+  - title: "Bookmarks"
+    desc: >
+      Methods to interact with bookmarks
+    contents:
+      - add_bookmark
+      - delete_bookmark
+      - get_all_bookmarks
+      - n_bookmarks_by_date
+      - get_recent_bookmarks
+      - date_last_updated
+  - title: "Tags"
+    desc: >
+      Methods to interact with tags
+    contents:
+      - get_all_tags
+      - rename_tag
+      - delete_tag
+      - get_tag_recommendation
+  - title: "Notes"
+    desc: >
+      Methods to interact with notes
+    contents:
+      - get_all_notes
+      - get_note

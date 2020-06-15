@@ -1,0 +1,22 @@
+Package: pinboard
+Type: Package
+Title: Interact with pinboard.in API
+Version: 0.1.0
+Author: Andrea Dodet
+Maintainer: Andrea Dodet <an.dodet@gmail.com>
+Description: Full-featured API wrapper for pinboard.in. Allows to interact with
+  bookmarks, notes and tags.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  httr,
+  jsonlite,
+  tibble,
+  purrr,
+  tidyr,
+  dplyr,
+  utils
+Suggests:
+  pkgdown
+RoxygenNote: 7.1.0
