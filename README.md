@@ -1,5 +1,9 @@
 # pinboard 📌
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/andodet/pinboard/workflows/R-CMD-check/badge.svg)](https://github.com/andodet/pinboard/actions?query=workflow%3AR-CMD-check)
+<!-- badges: end -->
+
 Full featured R API wrapper for [pinboard.in](https://www.pinboard.in).  
 
 The package allows to interact with bookmarks, notes and tags.
